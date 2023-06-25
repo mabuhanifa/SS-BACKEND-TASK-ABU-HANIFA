@@ -22,7 +22,7 @@ app.use("/api/movies", movieRouter);
 connectDB();
 
 app.get("/", (req, res) => {
-  res.send("Hello World");
+  res.send("API from Node Express APP is running");
 });
 
 app.listen(port, () => {
