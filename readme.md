@@ -59,6 +59,13 @@ The server will start running at `http://localhost:3000`.
 
 The project includes the following API routes:
 
+### To test admin specific CRUD operation use this username & password
+
+```bash
+   username: admin,
+   password: '123456'
+```
+
 ### Register a User
 
 - URL: `/api/register`
@@ -134,3 +141,48 @@ We welcome contributions from the community! If you find any issues or have sugg
 ---
 
 Feel free to customize the README file according to your project's specific requirements and add any additional sections or information as needed.
+
+Some Demo Movies JSON for testing:
+
+```json
+{
+  "name": "The Lion King",
+  "actors": ["Donald Glover", "Beyoncé", "James Earl Jones"],
+  "crew": ["Jon Favreau"],
+  "runtime": 118,
+  "directors": ["Jon Favreau"],
+  "producers": ["Jon Favreau", "Karen Gilchrist"]
+},
+{
+  "name": "Gone with the Wind",
+  "actors": ["Clark Gable", "Vivien Leigh", "Thomas Mitchell"],
+  "crew": ["Victor Fleming"],
+  "runtime": 238,
+  "directors": ["Victor Fleming"],
+  "producers": ["David O. Selznick"]
+},
+{
+  "name": "Avatar",
+  "actors": ["Sam Worthington", "Zoe Saldana", "Sigourney Weaver"],
+  "crew": ["James Cameron"],
+  "runtime": 162,
+  "directors": ["James Cameron"],
+  "producers": ["James Cameron", "Jon Landau"]
+},
+{
+  "name": "Titanic",
+  "actors": ["Leonardo DiCaprio", "Kate Winslet", "Billy Zane"],
+  "crew": ["James Cameron"],
+  "runtime": 194,
+  "directors": ["James Cameron"],
+  "producers": ["James Cameron", "Jon Landau"]
+},
+{
+  "name": "The Revenant",
+  "actors": ["Leonardo DiCaprio", "Tom Hardy", "Domhnall Gleeson"],
+  "crew": ["Alejandro González Iñárritu"],
+  "runtime": 156,
+  "directors": ["Alejandro González Iñárritu"],
+  "producers": ["Alejandro González Iñárritu", "Arnon Milchan", "Steve Golin", "Mary Parent", "Keith Redmon"]
+}
+```
