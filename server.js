@@ -25,6 +25,7 @@ app.get("/", (req, res) => {
   res.send("API from Node Express APP is running");
 });
 
+//listen to port
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
 });
