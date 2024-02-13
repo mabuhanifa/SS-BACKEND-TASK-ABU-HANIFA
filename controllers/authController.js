@@ -32,7 +32,7 @@ const registerUser = async (req, res) => {
   } catch (error) {
     res.send({
       success: false,
-      message: message,
+      message: error.message,
     });
   }
 };

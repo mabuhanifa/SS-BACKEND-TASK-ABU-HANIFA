@@ -9,7 +9,7 @@ const getAllMovies = async (req, res) => {
     });
   } catch (error) {
     res.json({
-      message: error,
+      message: error.message,
       success: false,
     });
   }
@@ -31,7 +31,7 @@ const getSingleMovie = async (req, res) => {
     }
   } catch (error) {
     res.json({
-      message: error,
+      message: error.message,
       success: false,
     });
   }
@@ -51,7 +51,7 @@ const updateSingleMovie = async (req, res) => {
     });
   } catch (error) {
     res.json({
-      message: error,
+      message: error.message,
       success: false,
     });
   }
@@ -74,7 +74,7 @@ const deleteSingleMovie = async (req, res) => {
     }
   } catch (error) {
     res.json({
-      message: error,
+      message: error.message,
       success: false,
     });
   }
@@ -100,7 +100,7 @@ const createMovie = async (req, res) => {
     });
   } catch (error) {
     res.json({
-      message: error,
+      message: error.message,
       success: false,
     });
   }
